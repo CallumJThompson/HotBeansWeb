@@ -1,5 +1,5 @@
 
- /* jQuery Pre loader
+  /* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
     $('.preloader').fadeOut(1000); // set duration in brackets    
@@ -28,7 +28,7 @@ $(document).ready(function() {
     });
 
 
- /* Home Slideshow Vegas
+  /* Home Slideshow Vegas
   -----------------------------------------------*/
   $(function() {
     $('body').vegas({
@@ -38,7 +38,7 @@ $(document).ready(function() {
             { src: 'images/slide-img3.jpg' }
         ],
         timer: false,
-        transition: [ 'zoomIn', ],
+        transition: [ 'fade', ],
         animation: ['kenburns']
     });
   });
@@ -67,7 +67,7 @@ $(document).ready(function() {
           $('.go-top').fadeIn(200);
             } else {
                 $('.go-top').fadeOut(200);
-           }
+            }
         });   
           // Animate the scroll to top
         $('.go-top').click(function(event) {
